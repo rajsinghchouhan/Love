@@ -3,6 +3,12 @@ import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 
+declare global {
+  interface Window {
+    __COUPLE_HUB_MOUNTED__?: boolean;
+  }
+}
+
 interface ErrorBoundaryState {
   hasError: boolean;
   errorMessage: string;
@@ -56,7 +62,8 @@ class RootErrorBoundary extends React.Component<
 }
 
 const rootElement = document.getElementById('root');
-if (rootElement) {
+if (rootElement && !window.__COUPLE_HUB_MOUNTED__) {
+  window.__COUPLE_HUB_MOUNTED__ = true;
   createRoot(rootElement).render(
     <RootErrorBoundary>
       <App />

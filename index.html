@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="background-color: #08050b; color: #fdf8ff;">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hindi Relationship &amp; Intimacy Ebook — ₹149 | Couple Hub</title>
-    <meta name="theme-color" content="#D62828" />
+    <meta name="theme-color" content="#08050b" />
     <meta name="description" content="Bestselling Hindi + Hinglish ebook on communication, emotional connection, intimacy education, confidence and wellness for Indian couples. Instant PDF, lifetime access, shared couple tracker &amp; photo gallery." />
     <meta property="og:title" content="Hindi Relationship &amp; Intimacy Ebook — ₹149 | Couple Hub" />
     <meta property="og:description" content="Bestselling Hindi + Hinglish ebook on communication, emotional connection, intimacy education, confidence and wellness for Indian couples. Instant PDF, lifetime access." />
@@ -15,10 +15,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" />
+    <link rel="stylesheet" href="./assets/app-bundle.css" />
   </head>
-  <body>
+  <body style="background-color: #08050b; color: #fdf8ff; margin: 0;">
     <div id="root"></div>
-    <script type="module" src="./src/main.tsx"></script>
+    <script>
+      window.__LOAD_STATIC_BUNDLE__ = function () {
+        if (window.__COUPLE_HUB_MOUNTED__ || window.__STATIC_BUNDLE_LOADING__) return;
+        window.__STATIC_BUNDLE_LOADING__ = true;
+        var s = document.createElement('script');
+        s.type = 'module';
+        s.src = './assets/app-bundle.js';
+        document.body.appendChild(s);
+      };
+      if (window.location.hostname.indexOf('github.io') !== -1) {
+        window.__LOAD_STATIC_BUNDLE__();
+      } else {
+        setTimeout(function () {
+          if (!window.__COUPLE_HUB_MOUNTED__) {
+            window.__LOAD_STATIC_BUNDLE__();
+          }
+        }, 450);
+      }
+    </script>
+    <script type="module" src="./src/main.tsx" onerror="window.__LOAD_STATIC_BUNDLE__ && window.__LOAD_STATIC_BUNDLE__()"></script>
   </body>
 </html>
-
