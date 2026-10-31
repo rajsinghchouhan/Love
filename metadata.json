@@ -1,0 +1,6 @@
+{
+  "name": "Couple Hub — Hindi Relationship & Intimacy Ebook & Shared Tracker",
+  "description": "Bestselling Hindi + Hinglish relationship & intimacy guide with 365 daily ideas, shared couple progress tracker, and interactive photo gallery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
