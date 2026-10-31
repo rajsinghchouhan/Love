@@ -139,7 +139,7 @@ export const WhatsInsideSection: React.FC<{ onBuyClick: () => void }> = ({
               </span>
               <div className="my-6 flex justify-center">
                 <img
-                  src="/assets/365.png"
+                  src="assets/365.png"
                   alt="365 Sex Poses Hindi Ebook"
                   className="float-book max-h-[340px] w-auto rounded-2xl border border-white/15 shadow-[0_25px_60px_rgba(0,0,0,0.85)]"
                 />
@@ -507,7 +507,7 @@ export const FooterAndStickyBar: React.FC<{ onBuyClick: () => void }> = ({
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <img
-              src="/assets/365.png"
+              src="assets/365.png"
               alt="365 Ebook"
               className="hidden h-11 w-9 rounded-lg object-cover sm:block border border-white/20"
             />

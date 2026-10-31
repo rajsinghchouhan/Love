@@ -74,7 +74,7 @@ export const PhotoGallerySection: React.FC<{ onBuyClick: () => void }> = ({
   const [newChapterInfo, setNewChapterInfo] = useState('');
   const [newCategory, setNewCategory] =
     useState<GalleryPhotoItem['category']>('Couple Memories');
-  const [newImageSrc, setNewImageSrc] = useState('/assets/preview-3.jpg');
+  const [newImageSrc, setNewImageSrc] = useState('assets/preview-3.jpg');
   const [formError, setFormError] = useState('');
 
   useEffect(() => {
@@ -173,7 +173,7 @@ export const PhotoGallerySection: React.FC<{ onBuyClick: () => void }> = ({
     }
     const created: GalleryPhotoItem = {
       id: `gal-${Date.now()}`,
-      src: newImageSrc || '/assets/preview-3.jpg',
+      src: newImageSrc || 'assets/preview-3.jpg',
       title: newTitle.trim(),
       subtitle: newSubtitle.trim() || 'कपल स्पेशल मोमेंट',
       category: newCategory,
@@ -862,10 +862,10 @@ export const PhotoGallerySection: React.FC<{ onBuyClick: () => void }> = ({
                   </label>
                   <div className="flex gap-1.5">
                     {[
-                      '/assets/preview-1.png',
-                      '/assets/preview-2.png',
-                      '/assets/preview-3.jpg',
-                      '/assets/preview-4.jpg',
+                      'assets/preview-1.png',
+                      'assets/preview-2.png',
+                      'assets/preview-3.jpg',
+                      'assets/preview-4.jpg',
                     ].map((preset) => (
                       <button
                         key={preset}

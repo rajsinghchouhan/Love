@@ -46,7 +46,7 @@ export const CTA_BADGES = [
 export const EBOOK_PREVIEW_CARDS = [
   {
     id: 'preview-1',
-    src: '/assets/preview-1.png',
+    src: 'assets/preview-1.png',
     label: 'Chapter Preview',
     chapterTitle: 'Chapter 1: Romantic Foundations & Intimate Comfort',
     hindiDesc: 'शुरुआती कपल्स के लिए सबसे आरामदायक और गहरा भावनात्मक जुड़ाव बनाने वाले स्टेप्स।',
@@ -54,7 +54,7 @@ export const EBOOK_PREVIEW_CARDS = [
   },
   {
     id: 'preview-2',
-    src: '/assets/preview-2.png',
+    src: 'assets/preview-2.png',
     label: 'Chapter Preview',
     chapterTitle: 'Chapter 2: Deep Connection & Eye-Contact Positions',
     hindiDesc: 'एक-दूसरे के करीब आने और विश्वास बढ़ाने के लिए खास रोमांटिक पोज़िशन।',
@@ -62,7 +62,7 @@ export const EBOOK_PREVIEW_CARDS = [
   },
   {
     id: 'preview-3',
-    src: '/assets/preview-3.jpg',
+    src: 'assets/preview-3.jpg',
     label: 'Chapter Preview',
     chapterTitle: 'Chapter 3: Last Longer & Complete Satisfaction',
     hindiDesc: 'परफॉरमेंस और स्टैमिना बढ़ाने वाली प्रैक्टिकल पोज़िशन और टिप्स।',
@@ -70,7 +70,7 @@ export const EBOOK_PREVIEW_CARDS = [
   },
   {
     id: 'preview-4',
-    src: '/assets/preview-4.jpg',
+    src: 'assets/preview-4.jpg',
     label: 'Chapter Preview',
     chapterTitle: 'Chapter 4: Breaking the Routine — Fresh Nightly Ideas',
     hindiDesc: 'रोज़ की बोरियत खत्म करने और रिश्ते में शुरुआती दिनों जैसा स्पार्क लाने के तरीके।',
@@ -78,7 +78,7 @@ export const EBOOK_PREVIEW_CARDS = [
   },
   {
     id: 'preview-5',
-    src: '/assets/preview-1.png',
+    src: 'assets/preview-1.png',
     label: 'Chapter Preview',
     chapterTitle: 'Chapter 5: The 23 Wild Bucket List Positions',
     hindiDesc: 'एडवेंचरस कपल्स के लिए 23 बिल्कुल नए और रोमांचक अनुभव।',
@@ -86,7 +86,7 @@ export const EBOOK_PREVIEW_CARDS = [
   },
   {
     id: 'preview-6',
-    src: '/assets/preview-2.png',
+    src: 'assets/preview-2.png',
     label: 'Chapter Preview',
     chapterTitle: 'Chapter 6: Communication, Foreplay & Aftercare',
     hindiDesc: 'बिना झिझक अपनी बात कहने और पार्टनर को पूरी तरह संतुष्ट करने की कला।',
@@ -377,7 +377,7 @@ export const INITIAL_SHARED_GOALS: SharedGoalItem[] = [
 export const INITIAL_GALLERY_PHOTOS: GalleryPhotoItem[] = [
   {
     id: 'gal-1',
-    src: '/assets/preview-1.png',
+    src: 'assets/preview-1.png',
     title: 'Chapter 1 Preview — Romantic Intimacy',
     subtitle: 'रोमांटिक पोज़िशन और स्टेप-बाय-स्टेप चित्रण (Hindi + Hinglish)',
     category: 'Chapter Previews',
@@ -388,7 +388,7 @@ export const INITIAL_GALLERY_PHOTOS: GalleryPhotoItem[] = [
   },
   {
     id: 'gal-2',
-    src: '/assets/preview-2.png',
+    src: 'assets/preview-2.png',
     title: 'Chapter 2 Preview — Deep Emotional Bond',
     subtitle: 'गहरा जुड़ाव और पार्टनर की संतुष्टि के लिए आसान गाइड',
     category: 'Chapter Previews',
@@ -399,7 +399,7 @@ export const INITIAL_GALLERY_PHOTOS: GalleryPhotoItem[] = [
   },
   {
     id: 'gal-3',
-    src: '/assets/preview-3.jpg',
+    src: 'assets/preview-3.jpg',
     title: 'Chapter 3 Preview — Stamina & Confidence',
     subtitle: 'Last longer, satisfy fully — परफॉरमेंस सुधारने वाली खास पोज़िशन',
     category: 'Chapter Previews',
@@ -410,7 +410,7 @@ export const INITIAL_GALLERY_PHOTOS: GalleryPhotoItem[] = [
   },
   {
     id: 'gal-4',
-    src: '/assets/preview-4.jpg',
+    src: 'assets/preview-4.jpg',
     title: 'Chapter 4 Preview — The 23 Wild Bucket List',
     subtitle: '23 नए और रोमांचक अनुभव जो हर कपल को एक बार ज़रूर ट्राय करने चाहिए',
     category: 'Bucket List',
@@ -421,7 +421,7 @@ export const INITIAL_GALLERY_PHOTOS: GalleryPhotoItem[] = [
   },
   {
     id: 'gal-5',
-    src: '/assets/365.png',
+    src: 'assets/365.png',
     title: '365 Sex Poses — Complete Guide Cover Edition',
     subtitle: 'Stronger You. Happier Her. Better Together. (Hindi + English)',
     category: 'Romantic Ideas',
@@ -432,7 +432,7 @@ export const INITIAL_GALLERY_PHOTOS: GalleryPhotoItem[] = [
   },
   {
     id: 'gal-6',
-    src: '/assets/cta-bg.png',
+    src: 'assets/cta-bg.png',
     title: 'Classic Indian Romantic Art — Timeless Connection',
     subtitle: 'एक किताब, 365 नए अनुभव — हर दिन रिश्ते में नई ऊर्जा',
     category: 'Couple Memories',

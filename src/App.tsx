@@ -124,7 +124,7 @@ export default function App() {
                 <div className="mt-4 flex items-center justify-between rounded-2xl border border-[#FF2A6D]/35 bg-[#FF2A6D]/15 p-3.5">
                   <div className="flex items-center gap-3">
                     <img
-                      src="/assets/365.png"
+                      src="assets/365.png"
                       alt="365 Ebook"
                       className="h-12 w-10 rounded-lg object-cover border border-white/20"
                     />

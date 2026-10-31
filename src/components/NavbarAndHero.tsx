@@ -238,7 +238,7 @@ const HERO_SPREADS = [
     badge: 'COVER EDITION',
     title: '365 Sex Poses — Complete Hindi + English Visual Edition',
     subtitle: 'हर दिन एक नया रोमांटिक अनुभव · 100% Illustrated',
-    src: '/assets/365.png',
+    src: 'assets/365.png',
     tag: '365 Daily Positions',
   },
   {
@@ -246,7 +246,7 @@ const HERO_SPREADS = [
     badge: 'SPREAD #01',
     title: 'Foreplay & Deep Emotional Connection',
     subtitle: 'रोमांस शुरू करने से पहले माहौल और भावनात्मक जुड़ाव कैसे बनाएं',
-    src: '/assets/preview-1.png',
+    src: 'assets/preview-1.png',
     tag: 'Foreplay Mastery',
   },
   {
@@ -254,7 +254,7 @@ const HERO_SPREADS = [
     badge: 'SPREAD #02',
     title: 'Comfort Angles & Step-by-Step Visual Clues',
     subtitle: 'बिना किसी झिझक के आसान और आरामदायक पोज़िशन गाइड',
-    src: '/assets/preview-2.png',
+    src: 'assets/preview-2.png',
     tag: 'Easy & Illustrated',
   },
   {
@@ -262,7 +262,7 @@ const HERO_SPREADS = [
     badge: 'SPREAD #03',
     title: 'Stamina & Long-Lasting Intimacy Secrets',
     subtitle: 'जल्दी थकने की समस्या से छुटकारा और पार्टनर को दोगुना आनंद',
-    src: '/assets/preview-3.jpg',
+    src: 'assets/preview-3.jpg',
     tag: 'Confidence Boost',
   },
   {
@@ -270,7 +270,7 @@ const HERO_SPREADS = [
     badge: 'SPREAD #04',
     title: '23 Wild Bucket List Positions Vault',
     subtitle: 'अपने रिश्ते में नया रोमांच और सरप्राइज लाने के लिए 23 खास आइडिया',
-    src: '/assets/preview-4.jpg',
+    src: 'assets/preview-4.jpg',
     tag: '23 Bucket List',
   },
 ];
